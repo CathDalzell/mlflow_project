@@ -1,3 +1,5 @@
+#! /usr/bin/env Rscript
+
 library(mlflow)
 
 # Log a parameter (key-value pair)

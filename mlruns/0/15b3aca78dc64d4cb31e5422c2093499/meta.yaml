@@ -1,0 +1,15 @@
+artifact_uri: /Users/catherinedalzell/Documents/mlflow_project/mlruns/0/15b3aca78dc64d4cb31e5422c2093499/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 15b3aca78dc64d4cb31e5422c2093499
+run_uuid: 15b3aca78dc64d4cb31e5422c2093499
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1588263463080
+status: 1
+tags: []
+user_id: catherinedalzell

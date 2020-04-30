@@ -1,0 +1,11 @@
+q()
+11/(564 + 11)
+0.0191 * 300000
+q()
+library('mlflow')
+mlflow_ui()
+getwd()
+setwd("~/Documents/mlflow_project")
+getwd()
+mlflow_ui()
+q()

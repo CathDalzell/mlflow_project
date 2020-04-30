@@ -52,4 +52,23 @@ $ R
 > setwd("~/Documents/mlflow_project")
 ```
 
+### A shortcut
+
+For a local run, we can dispense with Conda environments and `mlflow run` altogether. Just add a shebang line to the code and chmod it to executable. Run from the command line.
+
+```
+$ conda deactivate
+$ ./quickstart.R
+```
+
+
 ## Running from `github`
+
+To run the previous example from `github`, and still displaying locally, just enter the `github` repo instead of the local folder. In my case, this is:
+
+```
+conda activate r-mlflow-1.7.0
+mlflow run https://github.com/CathDalzell/mlflow_project -e quickstart.R --no-conda
+```
+
+Invoke `mlflow_ui()` from R as before.
